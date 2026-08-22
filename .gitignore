@@ -1,3 +1,11 @@
+# dvc
+.dvc/cache/
+.dvc/tmp/
+.dvc/config
+.dvc/updates/
+.dvc/state
+.dvc/lock
+
 # vim
 *.swp
 *.swo

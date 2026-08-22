@@ -1,0 +1,6 @@
+outs:
+- md5: bd3e9a545a2d48a29fbcc9c52755ba3d.dir
+  size: 195453983
+  nfiles: 17
+  hash: md5
+  path: anomaly_detection
