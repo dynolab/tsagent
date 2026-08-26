@@ -1,3 +1,43 @@
 # vim
 *.swp
 *.swo
+
+# --- Datasets -------------------------------------------------------------------------
+# Pools are rebuilt from raw_data with src/sampler-r1-r2.py and src/generator-s1-s2.py,
+# so they are reproducible artefacts and are never committed.
+data/
+raw_data/
+**/output/
+**/raw_data/
+
+# Dataset file formats, wherever they land
+*.parquet
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- Python ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Editors / OS ---------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

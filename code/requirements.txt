@@ -1,0 +1,10 @@
+# Verified against the versions in the comments; the lower bounds are the oldest
+# releases the code is written against.
+numpy>=1.26          # tested: 2.3.5   - SeedSequence.spawn, Generator API
+pandas>=2.1          # tested: 3.0.1
+pyarrow>=14.0        # tested: 22.0.0  - parquet engine
+scipy>=1.11          # tested: 1.17.1  - signal.lfilter for AR processes
+
+# Notebooks under progress/*/src/
+matplotlib>=3.8      # tested: 3.10
+jupyter>=1.0
