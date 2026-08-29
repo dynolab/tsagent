@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 3. Set up DVC (ask the owner for `YOUR_ACCESS_KEY_ID` and `YOUR_SECRET_ACCESS_KEY`)
 ```bash
-dvc remote add -d storage s3://sequential-post-training-with-intent-ambiguity
+dvc remote add -d storage s3://dynolab/tsagent
 dvc remote modify storage endpointurl https://storage.yandexcloud.net
 dvc remote modify storage access_key_id YOUR_ACCESS_KEY_ID
 dvc remote modify storage secret_access_key YOUR_SECRET_ACCESS_KEY
