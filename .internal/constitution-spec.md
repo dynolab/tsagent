@@ -90,7 +90,7 @@ A result is valid if:
 
 | ID | Name | Expected result | Time index | Strong scaling efficiency |
 |----|------|-----------------|------------|---------------------------|
-| M1 | Baseline development + dataset preparation | Raw-retrieval-only baseline agent (single tool providing time series access), dataset pool builder, label derivation for selected datasets | T+2 | 0.65 |
+| M1 | Baseline development + dataset preparation | Raw-retrieval-only baseline agent (tools for raw time-series retrieval and pool metadata discovery only, no analysis tools), dataset pool builder, label derivation for selected datasets | T+2 | 0.65 |
 | M2 | Metrics + tool set → draft agent | Analysis quality metric suite (RQ2), complete tool set with evidence-linked output schemas, working draft agent | T+6 | 0.45 |
 | M3 | Validation + context efficiency + agent polishing | Comparative validation results (RQ1), context-efficiency measurements (RQ3), polished agent incorporating feedback | T+9 | 0.55 |
 
