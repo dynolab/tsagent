@@ -1,0 +1,1 @@
+{"series_id": "R1__WSD__WSD_90_chunk0", "verdict": "anomalous", "explanation": "The series contains a clear spike at index 4000 where the value jumps from the surrounding ~4 000 units to 5 000 units – a 20 % increase that is far outside the normal range of the data. This isolated high point is an anomalous observation."}

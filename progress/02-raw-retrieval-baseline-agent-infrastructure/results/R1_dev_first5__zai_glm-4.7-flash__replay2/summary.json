@@ -1,0 +1,53 @@
+{
+  "run_id": "b9f024e47bb3",
+  "pool": "R1",
+  "model": "openai-chat:glm-4.7-flash",
+  "output_dir": "data/02-raw-retrieval-baseline-agent-infrastructure/runs/R1_dev_first5__openai-chat_glm-4.7-flash__replay2",
+  "kind": "run_end",
+  "finished_at": "2026-10-10T02:19:34.241+00:00",
+  "duration_ms": 1431964.942,
+  "termination": {
+    "reason": "model_error",
+    "detail": "ModelHTTPError: status_code: 500, model_name: glm-4.7-flash, body: {'code': '1234', 'message': 'Network error, error id: 20261010101532b4090898a7964565, please try again later'}"
+  },
+  "requests": 5,
+  "retries": {
+    "tool": 0,
+    "output": 0,
+    "closing": 0
+  },
+  "tool_calls": {
+    "get_series": 4,
+    "get_pool_meta_data": 1,
+    "failed": 0
+  },
+  "usage": {
+    "input_tokens": 111576,
+    "output_tokens": 3604,
+    "total_tokens": 115180,
+    "cache_read_tokens": 210,
+    "cache_write_tokens": 0,
+    "details": {
+      "reasoning_tokens": 3413
+    }
+  },
+  "overhead_usage": {
+    "requests": 2.0,
+    "input_tokens": 2004.0,
+    "output_tokens": 102.0,
+    "total_tokens": 2106.0
+  },
+  "series": {
+    "in_pool": 5,
+    "examined": 4,
+    "verdicted": 3,
+    "anomalous": 1,
+    "normal": 2,
+    "examined_without_verdict": 1
+  },
+  "verdicts": {
+    "accepted": 3,
+    "rejected": 0,
+    "revised": 0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "run_id": "dd5b8e253f47",
+  "pool": "R1",
+  "model": "openai-chat:glm-4.7-flash",
+  "output_dir": "data/02-raw-retrieval-baseline-agent-infrastructure/runs/R1__openai-chat_glm-4.7-flash",
+  "kind": "run_end",
+  "finished_at": "2026-10-10T02:52:19.443+00:00",
+  "duration_ms": 118142.675,
+  "termination": {
+    "reason": "budget",
+    "detail": "the next request would need about 170,619 input tokens (context 119,021 + response 398 + requested payloads ~51,200) plus 8,192 for the reply, over context_tokens_limit=131,072; not fetched: ['s0006', 's0007', 's0008', 's0009']"
+  },
+  "requests": 3,
+  "retries": {
+    "tool": 0,
+    "output": 0,
+    "closing": 0
+  },
+  "tool_calls": {
+    "get_series": 5,
+    "get_pool_meta_data": 1,
+    "failed": 1
+  },
+  "usage": {
+    "input_tokens": 134149,
+    "output_tokens": 626,
+    "total_tokens": 134775,
+    "cache_read_tokens": 15168,
+    "cache_write_tokens": 0,
+    "details": {
+      "reasoning_tokens": 433
+    }
+  },
+  "overhead_usage": {
+    "requests": 2.0,
+    "input_tokens": 15128.0,
+    "output_tokens": 228.0,
+    "total_tokens": 15356.0
+  },
+  "series": {
+    "in_pool": 2900,
+    "examined": 4,
+    "verdicted": 4,
+    "anomalous": 0,
+    "normal": 4,
+    "examined_without_verdict": 0
+  },
+  "verdicts": {
+    "accepted": 4,
+    "rejected": 0,
+    "revised": 0
+  }
+}

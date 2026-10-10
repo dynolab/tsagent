@@ -11,7 +11,7 @@ Constitution roadmap ref: M1 expected result — "Raw-retrieval-only baseline ag
 | 01 | Build real dataset R1+R2 (download, unify schema) | Done | 2 | 01-anomaly-detection-agent-data-spec.md | TSB-UAD-Public-v2 -> unified parquet |
 | 02 | Build synthetic generators S1+S2 | Done | 2 | 01-anomaly-detection-agent-data-spec.md | stationary + trend-seasonal, seed=42 |
 | 03 | Label derivation + quality checks across R1/R2/S1/S2 | Done | 1 | 01-anomaly-detection-agent-data-spec.md | y_i derivation, completeness/dup checks |
-| 04 | Build raw-retrieval-only baseline agent (tool + harness wiring + run producing ranked_list.json) | Todo | 2 | TBD (spec not yet written) | single tool: retrieve raw series by ID; no anomaly-detection tools |
+| 04 | Build raw-retrieval-only baseline agent (tools + pydantic-ai harness + single-episode run producing anomaly_verdicts.jsonl and decision_trace.jsonl) | Done | 1 | 02-raw-retrieval-baseline-agent-infrastructure-spec.md | two tools: get_series, get_pool_meta_data; no anomaly-detection tools; code/src/baseline_agent, write-up in progress/02-raw-retrieval-baseline-agent-infrastructure |
 
 - **Status**: `Todo`, `Doing`, `Done`
 - **Spec ref**: filename in `.internal/specs/`

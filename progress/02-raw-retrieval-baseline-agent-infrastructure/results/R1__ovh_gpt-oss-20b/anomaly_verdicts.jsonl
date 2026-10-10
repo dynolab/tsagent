@@ -1,0 +1,1 @@
+{"series_id": "R1__WSD__WSD_90_chunk1", "verdict": "anomalous", "explanation": "The series shows a clear level shift: after index 2000 the values jump from ~1,000 to >5,000 (e.g., index 2000 ≈ 5,000, index 2100 ≈ 5,200). This sustained high level is inconsistent with the earlier pattern and indicates an anomaly."}

@@ -1,0 +1,1 @@
+{"series_id": "R2__SVDB__874_col_1_chunk17", "verdict": "anomalous", "explanation": "The series shows a sharp upward spike starting at time_index 35: values jump from 0.04 (index 34) to 0.13 (35), 0.34 (36), 0.68 (37), 1.315 (38), 1.95 (39), and 2.585 (40). This isolated surge deviates markedly from the surrounding values, indicating an anomalous point or segment."}

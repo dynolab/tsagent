@@ -5,6 +5,14 @@ pandas>=2.1          # tested: 3.0.1
 pyarrow>=14.0        # tested: 22.0.0  - parquet engine
 scipy>=1.11          # tested: 1.17.1  - signal.lfilter for AR processes
 
+# Baseline agent (src/baseline_agent/, task 02)
+pydantic>=2.10                              # tested: 2.12.0  - output schemas
+pydantic-ai-slim[openai,anthropic]>=2.40    # tested: 2.47.0  - agent harness; the extras
+                                            # are the provider SDKs wired so far (the
+                                            # openai one also serves vLLM / Ollama /
+                                            # LM Studio through their OpenAI-compatible API)
+pytest>=8.0                                 # tested: 8.3.4   - tests/
+
 # Notebooks under progress/*/src/
 matplotlib>=3.8      # tested: 3.10
 jupyter>=1.0

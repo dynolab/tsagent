@@ -1,0 +1,51 @@
+{
+  "run_id": "00e935b79cf5",
+  "pool": "R1",
+  "model": "openai-chat:gpt-oss-20b",
+  "output_dir": "data/02-raw-retrieval-baseline-agent-infrastructure/runs/R1_dev_first5__openai-chat_gpt-oss-20b",
+  "kind": "run_end",
+  "finished_at": "2026-10-09T23:58:41.379+00:00",
+  "duration_ms": 322404.654,
+  "termination": {
+    "reason": "completed",
+    "detail": null
+  },
+  "requests": 6,
+  "retries": {
+    "tool": 0,
+    "output": 1,
+    "closing": 0
+  },
+  "tool_calls": {
+    "get_series": 3,
+    "get_pool_meta_data": 1,
+    "failed": 0
+  },
+  "usage": {
+    "input_tokens": 150249,
+    "output_tokens": 281,
+    "total_tokens": 150530,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "details": {}
+  },
+  "overhead_usage": {
+    "requests": 3.0,
+    "input_tokens": 59042.0,
+    "output_tokens": 169.0,
+    "total_tokens": 59211.0
+  },
+  "series": {
+    "in_pool": 5,
+    "examined": 3,
+    "verdicted": 3,
+    "anomalous": 0,
+    "normal": 3,
+    "examined_without_verdict": 0
+  },
+  "verdicts": {
+    "accepted": 3,
+    "rejected": 0,
+    "revised": 0
+  }
+}

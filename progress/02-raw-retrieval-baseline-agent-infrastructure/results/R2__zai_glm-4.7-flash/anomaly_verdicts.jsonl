@@ -1,0 +1,10 @@
+{"series_id": "R2__SVDB__874_col_1_chunk13", "verdict": "normal"}
+{"series_id": "R2__MITDB__215_col_0_chunk154", "verdict": "anomalous", "explanation": "The series shows a sustained level shift: it declines from -0.08 to -0.135 to -0.195 over the first 50 points, then sharply reverses direction around time_index 50-60 and rises steadily to positive values, continuing upward for hundreds of points. This change in trend direction and sustained level shift is anomalous behavior."}
+{"series_id": "R2__MITDB__115_col_1_chunk392", "verdict": "normal"}
+{"series_id": "R2__SVDB__872_col_0_chunk9", "verdict": "normal"}
+{"series_id": "R2__SVDB__804_col_0_chunk46", "verdict": "normal"}
+{"series_id": "R2__MITDB__215_col_1_chunk157", "verdict": "normal"}
+{"series_id": "R2__MITDB__123_col_1_chunk325", "verdict": "normal"}
+{"series_id": "R2__LTDB__14157_col_0_chunk667", "verdict": "normal"}
+{"series_id": "R2__MITDB__215_col_1_chunk123", "verdict": "normal"}
+{"series_id": "R2__SVDB__856_col_0_chunk19", "verdict": "normal"}
